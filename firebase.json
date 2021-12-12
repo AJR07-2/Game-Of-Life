@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "game-of-life07",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
